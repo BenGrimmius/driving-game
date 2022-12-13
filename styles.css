@@ -1,3 +1,23 @@
 * {
   background-color: green;
 }
+
+.east {
+  transform: rotate(0deg);
+  transition-duration: 0.5s;
+}
+
+.south {
+  transform: rotate(90deg);
+  transition-duration: 0.5s;
+}
+
+.west {
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
+}
+
+.north {
+  transform: rotate(270deg);
+  transition-duration: 0.5s;
+}
